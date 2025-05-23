@@ -54,9 +54,8 @@ L'ensemble des services sont accessibles via l'**API Gateway** sur le port `8888
 
 Avant de lancer les services, assurez-vous que :
 
-- Vous avez Java 17+ et Maven installés
+- Vous avez Java 17+ et Gradle installés (ou utilisez le wrapper `./gradlew`)
 - Le **Config Server**, **Eureka Discovery Server**, et **Gateway** sont bien configurés et démarrés
-- Les fichiers de configuration sont disponibles dans le dépôt Git associé au Config Server
 
 ---
 
@@ -65,13 +64,13 @@ Avant de lancer les services, assurez-vous que :
 Dans chaque microservice (COMPETENCE, POSTE, etc.), exécutez :
 
 ```bash
-./mvnw spring-boot:run
+./gradlew bootRun
 ```
 
-ou, si Maven est installé globalement :
+ou, si Gradle est installé globalement :
 
 ```bash
-mvn spring-boot:run
+gradle bootRun
 ```
 
 ### 🔁 Démarrage avec IntelliJ / IDE
