@@ -95,7 +95,7 @@ mvn spring-boot:run
 
 Une collection de requêtes HTTP a été préparée pour tester les points d’entrée de chaque microservice ainsi que la mise à jour dynamique de la configuration.
 
-📂 Les fichiers `.bru` sont disponibles dans le dossier `bruno/` du projet.  
+📂 Les fichiers `.bru` sont disponibles dans le dossier `Tests-API/` du projet.  
 ✅ Ouvrir ce dossier dans [Bruno](https://www.usebruno.com/) ou [BruCLI](https://bruno.now.sh/), puis exécuter les requêtes directement.
 
 Cela permet de :
