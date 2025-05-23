@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "competence", url = "http://localhost:8080")
+@FeignClient(name = "COMPETENCE")
 public interface CompetenceClient {
     @GetMapping("/skills")
     List<Competence> getAllCompetences();
